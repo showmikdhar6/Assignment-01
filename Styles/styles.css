@@ -1,0 +1,74 @@
+/* Font Styles */
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.azeret-mono-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+}
+
+#Hero {
+  height: 650px;
+  background-image: url("../assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero-content{
+  width:1023px;
+  margin: 0 auto;
+}
+.developer-illustration{
+  width: 240.283px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+
+.nav-title{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.button-first{
+  display: inline-flex;
+  padding: 17px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #0D1321;
+  opacity: 0.8;
+  color: #0D1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: transparent;
+}
