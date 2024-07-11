@@ -162,8 +162,6 @@ main{
   padding: 35px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
-  flex: 1 0 0;
   border-radius: 16px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   background: #FFF;
@@ -180,7 +178,7 @@ main{
   border-radius: 16px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   background: #FFF;
-  margin-bottom: 50px;
+  margin-bottom: 24px;
 }
 
 
@@ -261,6 +259,17 @@ main{
   margin-left: 50px;
 }
 
+.image-2{
+margin-right: 25px;
+}
+
+.image-MongoDB{
+  margin-right: 18px;
+}
+
+.image-ReactJS{
+  margin-right: 32px;
+}
 
 .cards-container-2{
   display: flex;
@@ -420,5 +429,116 @@ align-self: stretch;
 
 }
 
+.image-container{
+  display: flex;
+  width: 1140px;
+  padding: 64px 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+}
 
+.section-title-support{
+  color: #FFF;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+}
+.section-description-support{
+  color: #FFF;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
 
+}
+
+[type="text"]{
+  width: 461px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--White-Color, #FFF);
+  display: block;
+  border: none;
+  margin-bottom: 24px;
+}
+
+[placeholder="Suggest any feedback for me"]{
+  color: rgba(13, 19, 33, 0.40);
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 60px;
+
+}
+.submit-button{
+  width: 120px;
+  padding: 17px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #FFF;
+  color: #0D1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 25px;
+  margin-right: 80px;
+}
+
+.form{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 0px 120px;
+}
+
+.footer-background{ 
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  
+}
+
+.footer-section-title{
+  color: #0D1321;
+  text-align: left;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 80px;
+}
+
+.icons{
+  margin-right: 24px;
+  }
+  
+.footer-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 32px 150px;
+  gap: 500px
+ 
+}
+
+.icons-pack{
+  margin-right: 45px;
+}
